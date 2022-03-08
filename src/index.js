@@ -1,17 +1,18 @@
+// Import - basically require but for React/Front-end code
+  // const react = require('react');
+
+// Import from react allows us to use JSX syntax
 import React from 'react';
+// React DOM takes our app, andrenders it to the page
+// we only use reactDOM once and always in the index.js
 import ReactDOM from 'react-dom';
-import './index.css';
+
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // 2 parameters
+  // 1- component you want to render
+  <App />,
+  // 2- where you want to render it
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
