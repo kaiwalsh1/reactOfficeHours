@@ -3,7 +3,7 @@
 
 // Import from react allows us to use JSX syntax
 import React from 'react';
-// React DOM takes our app, andrenders it to the page
+// React DOM takes our app, and renders it to the page
 // we only use reactDOM once and always in the index.js
 import ReactDOM from 'react-dom';
 
